@@ -1,0 +1,55 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int i=0;
+    for(int i=1;i<5;i++){
+    }
+    cout<<i;
+    
+    return 0;
+}
+**********************************************
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int r,c,n;
+    cout<<"Enter the number of stars you want to print: ";
+    cin>>n;
+    for(r=1;r<=n;r++){
+        for(c=1;c<=n;c++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+ 
+    return 0;
+}
+
+
+*****************************************************************
+
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int n;
+   cin>>n;
+   for(int i=1;i<=n;i++){
+       for(int j=1;j<=(n-i+1);j++){
+           cout<<"*";
+       }
+       cout<<endl;
+   }
+
+    return 0;
+}
+
+
+******************************************************************
